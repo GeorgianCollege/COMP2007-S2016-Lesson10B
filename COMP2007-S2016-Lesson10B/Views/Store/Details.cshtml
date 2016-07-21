@@ -7,3 +7,11 @@
 
 <h2>Album: @Model.Title</h2>
 
+<ul>
+    <li>Album Artist: @Model.Artist.Name</li>
+    <li>Album Genre: @Model.Genre.Name</li>
+    <li>Album Price: @Model.Price</li>
+    <li>
+        <img src="@Model.AlbumArtUrl" alt="@Model.Title" />
+    </li>
+</ul>
